@@ -1,0 +1,42 @@
+{"intents": [
+  {
+    "tag":  "greetings",
+    "patterns":  ["hello", "hey", "hi", "good day", "greetings"],
+    "responses":  ["Hello", "Hello and Welcome", "Greetings", "Hi", "Hey", "Hey there", "Hello and thanks for talking to me"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["see you later", "goodbye", "cya", "bye"],
+    "responses": ["Talk to you later", "Goodbye"]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["thanks", "thank you", "ty"],
+    "responses": ["You are welcome, if you have another question, ask away or to leave this chat, just say bye!"]
+  },
+  {
+    "tag": "no understand",
+    "patterns": [" "],
+    "responses": ["I am sorry, I don't understand you", "Please ask your question more clearly!", "I'm sorry I can't help you any further, if you wish to contact the University Hub, call 0202080903", "May I interest you in the events at the University? Check out the Events section in the University website"]
+  },
+  {
+    "tag": "addresses",
+    "patterns": ["what is the address", "where is the university", "postcode", "address", "university address"],
+    "responses": ["The address of the University Campus is 12 University Road, AB1 2CD, London"]
+  },
+  {
+    "tag": "id",
+    "patterns": ["lost id", "i lost my id", "lost student id", "student id", "id"],
+    "responses": ["For any queries regarding your Student ID, visit the Student ID section in the University website"]
+  },
+  {
+    "tag": "lessons",
+    "patterns": ["lessons", "classes times", "lectures", "timetable", "lecture time"],
+    "responses": ["To access your timetable, check out this link and log in with your credentials in the Timetable section in the University website"]
+  },
+  {
+    "tag": "contact",
+    "patterns": ["contact", "contact teacher", "contact details", "staff"],
+    "responses": ["To get in contact with the teaching staff of the university, check out the contact section in the University website"]
+  }
+]}
